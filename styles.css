@@ -1,0 +1,68 @@
+body {
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #666c77;
+  color: white;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+.nav-link,
+#brand-logo {
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+  color: white;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+main {
+  position: absolute;
+  margin: 10px 0 0 0;
+  padding: 25px;
+  width: 100%;
+}
+
+#heading {
+  height: 100%;
+  vertical-align: auto;
+  margin: auto;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+#project-set {
+  display: flex;
+}
+
+#project-tile {
+  padding: 20px;
+  margin: 5px;
+  border: solid;
+}
+
+@media screen and (max-width: 815px) {
+}
